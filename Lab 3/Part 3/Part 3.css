@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+
+  header, footer {
+    width: 100%;
+    text-align: center;
+  }
+
+  @font-face {
+    font-family: 'Sigmar';
+    src: url(./Fonts/Sigmar/Sigmar-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Atkinson_Hyperlegible_Mono';
+    src: url(./Fonts/Atkinson_Hyperlegible_Mono/AtkinsonHyperlegibleMono-VariableFont_wght.ttf) format('truetype');
+    font-weight: normal;
+    font-style: bold;
+  }
+
+  html {
+    font-family: 'Atkinson_Hyperlegible_Mono', sans-serif;
+    font-size: 16px;
+
+  }
+
+  h1, h2 {
+    font-family: 'Sigmar', sans-serif;
+    text-align: center;
+  }
+
+  p, li {
+    line-height: 1.5;
+  }
+
+  h1 {
+    font-size: 2em;
+    letter-spacing: 0.2em;
+  }
+
+h2 {
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+  }
+
+  section p {
+    text-indent: 2.5em;
+  }
+
+  aside p {
+    text-indent: 0em;
+  }
+
+  a {
+    text-decoration: underline;
+    outline: none;
+  }
+
+  a:hover, a:focus {
+    text-decoration: none;
+  }
+
+  a:link { color: #0000EE; }
+  a:visited { color: #551A8B; }
+  a:hover { color: #FF0000; }
+  a:focus { color: #00FF00; }
+
+  a[href^="http"]:after {
+    content: '';
+    background: url(./Icon/external-link-icon-png-28.jpg);
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    background-size: contain;
+  }
+
+  section ul, aside ul {
+    list-style-type: square;
+  }
+
+  section ol {
+    list-style: lower-alpha;
+  }
+
+  nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  nav li {
+    padding: 10px;
+  }
+
+  nav a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #844242;
+    background-color: #d68e8e;
+    transition: background-color 0.3s ease;
+  }
+
+  nav ul li:hover, nav ul li:focus {
+    background-color: #ddd;
+    
+  }
+
+  nav ul li:active {
+    background-color: #bbb;
+  }
