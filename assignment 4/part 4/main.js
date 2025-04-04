@@ -1,3 +1,9 @@
+/* Name: vipalkumar patel
+File: main.js
+Date: 4 april 2025
+Assignment 4 : part 4 */
+// setup canvas
+
 const para = document.querySelector('p');
 let count = 0;
 
