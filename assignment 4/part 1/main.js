@@ -1,3 +1,9 @@
+/*
+Name: vipalkumar patel
+File: index.html
+Date: 4 april 2025
+Assignment 4 : part 1 */
+
 const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
 const story = document.querySelector('.story');
