@@ -1,3 +1,7 @@
+/* Name: vipalkumar patel
+File: main.js
+Date: 4 april 2025
+Assignment 4 : part 2 */
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 
